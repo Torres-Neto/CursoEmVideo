@@ -5,5 +5,5 @@ n = int(input('Digite um número qualquer: '))
 print('>>>>>>>>>>>>>>>')
 print('Tabuada de ',n)
 for i in range(1, 10+1):
-    print('{} x {} = {}'.format(i, n, n*i))
+    print('{:2}  x {:2} = {:2}'.format(n, i, n*i))
 print('>>>>>>>>>>>>>>>')
